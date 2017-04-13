@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+            'dsn' => 'mysql:host=localhost;dbname=learnya',
             'username' => 'root',
-            'password' => '',
+            'password' => '1486',
             'charset' => 'utf8',
         ],
         'mailer' => [
@@ -22,6 +22,11 @@ return [
                     'sourcePath'=>'@common/assets/bootstrap', // bootstrap新样式文件
                 ]
             ],
+        ],
+        'urlManager'=>[
+            'enablePrettyUrl'=>true,
+            'showScriptName'=>false,
+            'suffix'=>'.html',
         ],
     ],
 ];

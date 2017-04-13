@@ -46,4 +46,9 @@ return [
         */
     ],
     'params' => $params,
+    // 'catchAll'=>[
+    //     'site/offline',
+    //     'title'=>'Site is under maintaining',
+    //     'message'=>'Oops, I am in havavii',
+    // ],
 ];
