@@ -65,6 +65,14 @@ class SiteController extends Controller
         ];
     }
 
+    public function actionOffline($title, $message)
+    {
+        // echo 'Offline....';
+        $view_data['message'] = $message;
+        $this->view->title = $view_data['title'] = $title;
+        return $this->render('/site/offline', $view_data);
+    }
+
     /**
      * Displays homepage.
      *

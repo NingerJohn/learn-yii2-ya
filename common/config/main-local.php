@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+            'dsn' => 'mysql:host=localhost;dbname=learnya',
             'username' => 'root',
-            'password' => '',
+            'password' => '1486',
             'charset' => 'utf8',
         ],
         'mailer' => [
@@ -27,6 +27,11 @@ return [
         'urlManager'=>[
             'enablePrettyUrl'=>true, // 美化url成site/index
             'showScriptName'=>false, // 隐藏入口文件
+        ],
+        'urlManager'=>[
+            'enablePrettyUrl'=>true,
+            'showScriptName'=>false,
+            'suffix'=>'.html',
         ],
     ],
 ];
