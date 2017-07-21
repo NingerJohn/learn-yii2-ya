@@ -22,6 +22,11 @@ return [
                     'sourcePath'=>'@common/assets/bootstrap', // bootstrap新样式文件
                 ]
             ],
+            'appendTimestamp'=>true, // 静态资源管理添加文件修改时间戳
+        ],
+        'urlManager'=>[
+            'enablePrettyUrl'=>true, // 美化url成site/index
+            'showScriptName'=>false, // 隐藏入口文件
         ],
     ],
 ];
